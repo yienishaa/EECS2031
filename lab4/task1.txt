@@ -1,0 +1,34 @@
+/***************************************
+* SU22 – Lab4 *
+* Author: Abeyratne, Idame *
+* Email: yienisha@my.yorku.ca *
+* eecs_username: yienisha *
+* York num: 218462515
+****************************************/
+
+
+At break point 1
+1: mainA = 1
+2: mainB = 20000
+
+At breakpoint 2
+
+3: x = 1
+4: y = 20000
+
+for mainA and mainB : No symbol "mainA" in current context. and No symbol "mainB" in current context.
+mainA and mainB are outside the swap function. Therefore while inside the function those variables cannot be accessed
+
+At breakpoint 3
+
+5: x = 20000
+6: y = 1
+
+At breakpoint 4
+
+7: mainA = 1
+8: mainB = 20000
+
+for x,y No symbol "x" in current context. No symbol "y" in current context.
+Again this is because x and y were variables of swap function. the 3rd breakpoint is inside main function. So while inside main function, local variables of swap function cannot be accessed.
+
